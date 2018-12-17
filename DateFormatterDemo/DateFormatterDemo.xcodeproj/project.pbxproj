@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE8FE8BF21C7719E007AA37F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8FE8BE21C7719E007AA37F /* AppDelegate.swift */; };
+		EE8FE8C121C7719E007AA37F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8FE8C021C7719E007AA37F /* ViewController.swift */; };
+		EE8FE8C421C7719E007AA37F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8FE8C221C7719E007AA37F /* Main.storyboard */; };
+		EE8FE8C621C7719F007AA37F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8FE8C521C7719F007AA37F /* Assets.xcassets */; };
+		EE8FE8C921C7719F007AA37F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8FE8C721C7719F007AA37F /* LaunchScreen.storyboard */; };
+		EE8FE8D421C771A0007AA37F /* DateFormatterDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8FE8D321C771A0007AA37F /* DateFormatterDemoTests.swift */; };
+		EE8FE8DF21C771A0007AA37F /* DateFormatterDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8FE8DE21C771A0007AA37F /* DateFormatterDemoUITests.swift */; };
+		EE8FE8ED21C77269007AA37F /* DateFormatterCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8FE8EC21C77269007AA37F /* DateFormatterCache.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE8FE8D021C7719F007AA37F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE8FE8B321C7719E007AA37F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8FE8BA21C7719E007AA37F;
+			remoteInfo = DateFormatterDemo;
+		};
+		EE8FE8DB21C771A0007AA37F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE8FE8B321C7719E007AA37F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8FE8BA21C7719E007AA37F;
+			remoteInfo = DateFormatterDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE8FE8BB21C7719E007AA37F /* DateFormatterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateFormatterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8FE8BE21C7719E007AA37F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE8FE8C021C7719E007AA37F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE8FE8C321C7719E007AA37F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE8FE8C521C7719F007AA37F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE8FE8C821C7719F007AA37F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE8FE8CA21C7719F007AA37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8FE8CF21C7719F007AA37F /* DateFormatterDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateFormatterDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8FE8D321C771A0007AA37F /* DateFormatterDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterDemoTests.swift; sourceTree = "<group>"; };
+		EE8FE8D521C771A0007AA37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8FE8DA21C771A0007AA37F /* DateFormatterDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateFormatterDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8FE8DE21C771A0007AA37F /* DateFormatterDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterDemoUITests.swift; sourceTree = "<group>"; };
+		EE8FE8E021C771A0007AA37F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8FE8EC21C77269007AA37F /* DateFormatterCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterCache.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE8FE8B821C7719E007AA37F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8FE8CC21C7719F007AA37F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8FE8D721C771A0007AA37F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE8FE8B221C7719E007AA37F = {
+			isa = PBXGroup;
+			children = (
+				EE8FE8BD21C7719E007AA37F /* DateFormatterDemo */,
+				EE8FE8D221C771A0007AA37F /* DateFormatterDemoTests */,
+				EE8FE8DD21C771A0007AA37F /* DateFormatterDemoUITests */,
+				EE8FE8BC21C7719E007AA37F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE8FE8BC21C7719E007AA37F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8FE8BB21C7719E007AA37F /* DateFormatterDemo.app */,
+				EE8FE8CF21C7719F007AA37F /* DateFormatterDemoTests.xctest */,
+				EE8FE8DA21C771A0007AA37F /* DateFormatterDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE8FE8BD21C7719E007AA37F /* DateFormatterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EE8FE8BE21C7719E007AA37F /* AppDelegate.swift */,
+				EE8FE8C021C7719E007AA37F /* ViewController.swift */,
+				EE8FE8EC21C77269007AA37F /* DateFormatterCache.swift */,
+				EE8FE8C221C7719E007AA37F /* Main.storyboard */,
+				EE8FE8C521C7719F007AA37F /* Assets.xcassets */,
+				EE8FE8C721C7719F007AA37F /* LaunchScreen.storyboard */,
+				EE8FE8CA21C7719F007AA37F /* Info.plist */,
+			);
+			path = DateFormatterDemo;
+			sourceTree = "<group>";
+		};
+		EE8FE8D221C771A0007AA37F /* DateFormatterDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE8FE8D321C771A0007AA37F /* DateFormatterDemoTests.swift */,
+				EE8FE8D521C771A0007AA37F /* Info.plist */,
+			);
+			path = DateFormatterDemoTests;
+			sourceTree = "<group>";
+		};
+		EE8FE8DD21C771A0007AA37F /* DateFormatterDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE8FE8DE21C771A0007AA37F /* DateFormatterDemoUITests.swift */,
+				EE8FE8E021C771A0007AA37F /* Info.plist */,
+			);
+			path = DateFormatterDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE8FE8BA21C7719E007AA37F /* DateFormatterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8FE8E321C771A0007AA37F /* Build configuration list for PBXNativeTarget "DateFormatterDemo" */;
+			buildPhases = (
+				EE8FE8B721C7719E007AA37F /* Sources */,
+				EE8FE8B821C7719E007AA37F /* Frameworks */,
+				EE8FE8B921C7719E007AA37F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateFormatterDemo;
+			productName = DateFormatterDemo;
+			productReference = EE8FE8BB21C7719E007AA37F /* DateFormatterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE8FE8CE21C7719F007AA37F /* DateFormatterDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8FE8E621C771A0007AA37F /* Build configuration list for PBXNativeTarget "DateFormatterDemoTests" */;
+			buildPhases = (
+				EE8FE8CB21C7719F007AA37F /* Sources */,
+				EE8FE8CC21C7719F007AA37F /* Frameworks */,
+				EE8FE8CD21C7719F007AA37F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE8FE8D121C7719F007AA37F /* PBXTargetDependency */,
+			);
+			name = DateFormatterDemoTests;
+			productName = DateFormatterDemoTests;
+			productReference = EE8FE8CF21C7719F007AA37F /* DateFormatterDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE8FE8D921C771A0007AA37F /* DateFormatterDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8FE8E921C771A0007AA37F /* Build configuration list for PBXNativeTarget "DateFormatterDemoUITests" */;
+			buildPhases = (
+				EE8FE8D621C771A0007AA37F /* Sources */,
+				EE8FE8D721C771A0007AA37F /* Frameworks */,
+				EE8FE8D821C771A0007AA37F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE8FE8DC21C771A0007AA37F /* PBXTargetDependency */,
+			);
+			name = DateFormatterDemoUITests;
+			productName = DateFormatterDemoUITests;
+			productReference = EE8FE8DA21C771A0007AA37F /* DateFormatterDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE8FE8B321C7719E007AA37F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "瑞文戴尔";
+				TargetAttributes = {
+					EE8FE8BA21C7719E007AA37F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EE8FE8CE21C7719F007AA37F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EE8FE8BA21C7719E007AA37F;
+					};
+					EE8FE8D921C771A0007AA37F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EE8FE8BA21C7719E007AA37F;
+					};
+				};
+			};
+			buildConfigurationList = EE8FE8B621C7719E007AA37F /* Build configuration list for PBXProject "DateFormatterDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE8FE8B221C7719E007AA37F;
+			productRefGroup = EE8FE8BC21C7719E007AA37F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE8FE8BA21C7719E007AA37F /* DateFormatterDemo */,
+				EE8FE8CE21C7719F007AA37F /* DateFormatterDemoTests */,
+				EE8FE8D921C771A0007AA37F /* DateFormatterDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE8FE8B921C7719E007AA37F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8FE8C921C7719F007AA37F /* LaunchScreen.storyboard in Resources */,
+				EE8FE8C621C7719F007AA37F /* Assets.xcassets in Resources */,
+				EE8FE8C421C7719E007AA37F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8FE8CD21C7719F007AA37F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8FE8D821C771A0007AA37F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE8FE8B721C7719E007AA37F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8FE8C121C7719E007AA37F /* ViewController.swift in Sources */,
+				EE8FE8BF21C7719E007AA37F /* AppDelegate.swift in Sources */,
+				EE8FE8ED21C77269007AA37F /* DateFormatterCache.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8FE8CB21C7719F007AA37F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8FE8D421C771A0007AA37F /* DateFormatterDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8FE8D621C771A0007AA37F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8FE8DF21C771A0007AA37F /* DateFormatterDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE8FE8D121C7719F007AA37F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8FE8BA21C7719E007AA37F /* DateFormatterDemo */;
+			targetProxy = EE8FE8D021C7719F007AA37F /* PBXContainerItemProxy */;
+		};
+		EE8FE8DC21C771A0007AA37F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8FE8BA21C7719E007AA37F /* DateFormatterDemo */;
+			targetProxy = EE8FE8DB21C771A0007AA37F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE8FE8C221C7719E007AA37F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8FE8C321C7719E007AA37F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE8FE8C721C7719F007AA37F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8FE8C821C7719F007AA37F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE8FE8E121C771A0007AA37F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE8FE8E221C771A0007AA37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE8FE8E421C771A0007AA37F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJ2RR7PUE2;
+				INFOPLIST_FILE = DateFormatterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruiwendell.DateFormatterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE8FE8E521C771A0007AA37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJ2RR7PUE2;
+				INFOPLIST_FILE = DateFormatterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruiwendell.DateFormatterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE8FE8E721C771A0007AA37F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJ2RR7PUE2;
+				INFOPLIST_FILE = DateFormatterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruiwendell.DateFormatterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateFormatterDemo.app/DateFormatterDemo";
+			};
+			name = Debug;
+		};
+		EE8FE8E821C771A0007AA37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJ2RR7PUE2;
+				INFOPLIST_FILE = DateFormatterDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruiwendell.DateFormatterDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DateFormatterDemo.app/DateFormatterDemo";
+			};
+			name = Release;
+		};
+		EE8FE8EA21C771A0007AA37F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJ2RR7PUE2;
+				INFOPLIST_FILE = DateFormatterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruiwendell.DateFormatterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DateFormatterDemo;
+			};
+			name = Debug;
+		};
+		EE8FE8EB21C771A0007AA37F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FJ2RR7PUE2;
+				INFOPLIST_FILE = DateFormatterDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruiwendell.DateFormatterDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DateFormatterDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE8FE8B621C7719E007AA37F /* Build configuration list for PBXProject "DateFormatterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8FE8E121C771A0007AA37F /* Debug */,
+				EE8FE8E221C771A0007AA37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8FE8E321C771A0007AA37F /* Build configuration list for PBXNativeTarget "DateFormatterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8FE8E421C771A0007AA37F /* Debug */,
+				EE8FE8E521C771A0007AA37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8FE8E621C771A0007AA37F /* Build configuration list for PBXNativeTarget "DateFormatterDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8FE8E721C771A0007AA37F /* Debug */,
+				EE8FE8E821C771A0007AA37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8FE8E921C771A0007AA37F /* Build configuration list for PBXNativeTarget "DateFormatterDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8FE8EA21C771A0007AA37F /* Debug */,
+				EE8FE8EB21C771A0007AA37F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE8FE8B321C7719E007AA37F /* Project object */;
+}
