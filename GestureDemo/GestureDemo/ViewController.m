@@ -26,6 +26,7 @@
     [tapOnce requireGestureRecognizerToFail:tapTwice];
 }
 
+
 -(void)tapOnce:(UITapGestureRecognizer *)tap
 {
     NSLog(@"单击手势触发");

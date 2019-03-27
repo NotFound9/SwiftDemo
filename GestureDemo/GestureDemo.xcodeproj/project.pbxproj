@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE372062224BE31200018873 /* ViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = EE372061224BE31200018873 /* ViewControllerTwo.m */; };
 		EE70A4BF22390BD600D4900C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70A4BE22390BD600D4900C /* AppDelegate.m */; };
 		EE70A4C222390BD700D4900C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE70A4C122390BD700D4900C /* ViewController.m */; };
 		EE70A4C522390BD700D4900C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE70A4C322390BD700D4900C /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE372060224BE31200018873 /* ViewControllerTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerTwo.h; sourceTree = "<group>"; };
+		EE372061224BE31200018873 /* ViewControllerTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTwo.m; sourceTree = "<group>"; };
 		EE70A4BA22390BD600D4900C /* GestureDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE70A4BD22390BD600D4900C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE70A4BE22390BD600D4900C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				EE70A4BE22390BD600D4900C /* AppDelegate.m */,
 				EE70A4C022390BD600D4900C /* ViewController.h */,
 				EE70A4C122390BD700D4900C /* ViewController.m */,
+				EE372060224BE31200018873 /* ViewControllerTwo.h */,
+				EE372061224BE31200018873 /* ViewControllerTwo.m */,
 				EE70A4C322390BD700D4900C /* Main.storyboard */,
 				EE70A4C622390BD900D4900C /* Assets.xcassets */,
 				EE70A4C822390BD900D4900C /* LaunchScreen.storyboard */,
@@ -144,6 +149,7 @@
 				EE70A4C222390BD700D4900C /* ViewController.m in Sources */,
 				EE70A4CD22390BD900D4900C /* main.m in Sources */,
 				EE70A4BF22390BD600D4900C /* AppDelegate.m in Sources */,
+				EE372062224BE31200018873 /* ViewControllerTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
